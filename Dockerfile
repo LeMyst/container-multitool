@@ -1,4 +1,4 @@
-FROM alpine:3.20
+FROM alpine:3.21
 
 # Basic
 RUN apk add --update --upgrade --no-cache bash bind-tools busybox-extras curl iproute2 iputils jq mtr net-tools openssl perl-net-telnet procps tcpdump tcptraceroute wget python3 py3-pip git
